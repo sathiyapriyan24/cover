@@ -46,9 +46,9 @@ Publish the website in the LocalHost.
     <h1 class="title">MY BOOK TITLE</h1>
     <p class="subtitle">A Simple Subtitle</p>
 
-    <div class="author">By Your Name</div>
+    <div class="author"></div>
 
-    <img src="myphoto.jpg" alt="Author Image" class="author-img">
+    <img src="sathyapriyan.jpeg" alt="Author Image" class="author-img">
 </div>
 
 </body>
