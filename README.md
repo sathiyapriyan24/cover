@@ -1,6 +1,6 @@
 # Ex.05 Book Cover Page Design
-## Date: 24.12.2025
-# Ref No: 25018768
+## Date: 11.03.2026
+
 ## AIM:
 To design a book back cover page using HTML and CSS.
 
@@ -31,95 +31,106 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM
-
 ~~~
-<!DOCTYPE html>
-<html lang="en">
+
+book.html
+
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Book Cover</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="book-cover">
-    <h1 class="title">MY BOOK TITLE</h1>
-    <p class="subtitle">A Simple Subtitle</p>
-
-    <div class="author"></div>
-
-    <img src="sathyapriyan.jpeg" alt="Author Image" class="author-img">
+<div class="box">
+    <h1>About the Book</h1>
+    <p>This book, <spam>Tribe of Hackers</spam> a cybersecurity book that shares advice and experiences from more than 70 professional hackers and security experts. Instead of a traditional teaching style, the authors ask each expert the same questions about their career paths, learning methods, favorite tools, and tips for beginners.</p>
+    <div class="quote">
+        "Without big data, you are blind and deaf in the middle of a freeway."
+    </div>
+    <div class="author">
+        <img src="me.jpg">
+        <p>
+            <b>SATHIYA PRIYAN G</b><br>
+            Department of Cyber Security,Student of Saveetha engineering college first year.
+        </p>
+    </div>
+    <div class="footer">
+        <h2>SEC Publishers</h2>
+        <h2>Printed in India</h2>
+        <h2>Price: Rs.2000</h2>
+    </div>
 </div>
-
 </body>
 </html>
 
+style.css
 
-
-css
-----
-
-body {
-    margin: 0;
-    padding: 0;
-    background: #eaeaea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
+ body 
+{
+    background-color:cyan;
 }
-
-.book-cover {
-    width: 300px;
-    height: 450px;
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    color: white;
-    text-align: center;
+.box
+{
+    height: 650px;
+    width: 400px;
+    background-color: bisque;
+    color: rgb(139, 45, 86);
     padding: 20px;
-    box-sizing: border-box;
+    margin: 30px auto;
+    border: 3px solid rgb(255, 150, 194);
     border-radius: 10px;
-    position: relative;
 }
-
-.title {
-    font-size: 26px;
-    margin-top: 40px;
+.box h1
+{
+    border-bottom:2px solid rgb(139, 45, 86);
 }
-
-.subtitle {
-    font-size: 14px;
-    margin-top: 10px;
-    opacity: 0.9;
+.box spam
+{
+    background:yellow;
 }
+.quote 
+{
+    background: rgb(229, 102, 160);
+    padding: 20px;
+    border-left: 5px solid rgb(164, 58, 97);
+    margin: 50px 0;
+    text-align: center;
+ }
 
-.author {
-    position: absolute;
-    bottom: 70px;
-    width: 100%;
-    font-size: 14px;
+.author
+{
+    display: flex;
+    gap: 15px;
+    background: rgb(226, 178, 208);
+    padding: 5px;
+    margin-top: 60px;
+    border-radius: 5px;
 }
-
-.author-img {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 2px solid white;
-    object-fit: cover;
+.author b
+{
+    color: rgb(243, 243, 243);
 }
-
+.author img
+{
+    width: 50px;
+    height: 80px;
+    border-radius: 5px;
+}
+.footer
+{
+    background: rgb(0, 2, 65);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border-radius: 5px;
+}
 ~~~
 
 
 ## OUTPUT:
 
-
-<img width="1919" height="1019" alt="Screenshot 2025-12-24 103036" src="https://github.com/user-attachments/assets/2e4186fe-76b8-435e-8c32-64e620ff0648" />
-
+![alt text](image.png)
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
